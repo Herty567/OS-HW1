@@ -1,2 +1,14 @@
 Goroutine and Thread:
-A Goroutine is a function that can execute independently and simultaneously in connection with other Goroutines and is also in its own language (Go language). A thread is a process in an operating system thats responsible for running applications. It's the code inside the application. The advantages of Goroutines compared to Threads is that Goroutines don't use as much resources. This also allows a faster start up time for Goroutines. Has built-in communication using channels allowing for much easier communication and less latency. The disadvantages of Goroutines are how they are not the most ideal for CPU-intensive tasks. Threads perform much better for those cause of parallel processing. Not as
+A Goroutine is a function that can execute independently and simultaneously in connection with other Goroutines and is
+also in its own language (Go language). A thread is a process in an operating system thats responsible for running
+applications. It's the code inside the application. The advantages of Goroutines compared to Threads is that
+Goroutines don't use as much resources. This also allows a faster start up time for Goroutines. Has built-in 
+communication using channels allowing for much easier communication and less latency. The disadvantages of Goroutines 
+are how they are not the most ideal for CPU-intensive tasks. Threads perform much better for those cause of parallel 
+processing. Not as much control compared to a thread.
+Sources:
+https://durgeshatal1995.medium.com/understanding-the-differences-between-go-routines-and-threads-b631068d4fdd
+https://www.geeksforgeeks.org/golang-goroutine-vs-thread/
+https://dev.to/ankitmalikg/goroutine-vs-os-thread-3aae
+Why Sources are reliable:
+They all come from well known websites and all said very similar things about both the Goroutine and threads. They all have an author and all the references that they used for their research are professional.
